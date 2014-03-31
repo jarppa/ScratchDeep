@@ -1,5 +1,7 @@
-ScratchDeluxe
+ScratchDeep
 ========================
+This is just a pooped up fork for fun and giggles of the original DeepScratch. This version includes user samples and some playback modeifications.
+
 
 Original Deep Scratch is an Android app that allows simple DJ-like scratching of audio
 samples. The application created by Steve Schweizer is available on [Google Play][1].
@@ -14,8 +16,6 @@ free and a pay version that differed in the number of included samples. In
 nearly two years the pay version was sold 393 times until it was discontinued.
 In December 2012 the code of the two versions was merged, a bit polished and
 published under the GPLv3.
-
-Later modifications including user samples were made by Jari Tervonen in 2013.
 
 License
 -------
