@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.brillenheini.deepscratch.view.ScratchView
+            android:id="@+id/scratch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            offsetX="45"
+            android:scaleType="matrix"
+            android:src="@drawable/record" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:minHeight="20dip"
+            android:minWidth="30dp"
+            android:text="Record 1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:minHeight="20dip"
+            android:minWidth="30dp"
+            android:text="Record 2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:minHeight="20dip"
+            android:minWidth="30dp"
+            android:text="Record 3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button3"
+            android:minHeight="20dip"
+            android:minWidth="30dp"
+            android:text="Record 4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button4"
+            android:minHeight="20dip"
+            android:minWidth="30dp"
+            android:text="Record 5" />
+
+        <Button
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play2"
+            android:minHeight="20dip"
+            android:minWidth="30dip"
+            android:text="Play 1" />
+
+        <Button
+            android:id="@+id/play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play3"
+            android:minHeight="20dip"
+            android:minWidth="30dip"
+            android:text="Play 2" />
+
+        <Button
+            android:id="@+id/play3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play4"
+            android:minHeight="20dip"
+            android:minWidth="30dip"
+            android:text="Play 3" />
+
+        <Button
+            android:id="@+id/play4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play5"
+            android:minHeight="20dip"
+            android:minWidth="30dip"
+            android:text="Play 4" />
+
+        <Button
+            android:id="@+id/play5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:minHeight="20dip"
+            android:minWidth="30dip"
+            android:text="Play 5" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignTop="@+id/play1"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:checkedButton="@+id/RadioButton1_2"
+            android:layout_toRightOf="@+id/play1"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/RadioButton1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/RadioButton1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignTop="@+id/play2"
+            android:layout_toRightOf="@+id/play2"
+            android:checkedButton="@+id/RadioButton2_2"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/RadioButton2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/RadioButton2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignTop="@+id/play3"
+            android:layout_toRightOf="@+id/play3"
+            android:checkedButton="@+id/RadioButton3_2"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/RadioButton3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/RadioButton3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/play4"
+            android:layout_toRightOf="@+id/play4"
+            android:checkedButton="@+id/RadioButton4_2"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/RadioButton4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/RadioButton4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/play5"
+            android:layout_toRightOf="@+id/play5"
+            android:checkedButton="@+id/RadioButton5_2"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/RadioButton5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/RadioButton5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</merge>
